@@ -14,10 +14,14 @@ I have implemented One Euro Filter for one of my project but due to time constra
 (https://gist.github.com/3846masa/5628f711e86fd62bea56b18e32177c60)
 
 ## How to run the code
-1. Install dependency
+1. Create & activate environment using conda 
+``` conda create -n onform python=3.10```
+``` conda activate onform```
+
+2. Install dependency
 ``` pip install -r requirements.txt```
 
-2. Run the prediction file
+3. Run the prediction file
 
 positional arguments:
   video_path         Path to the input video file
